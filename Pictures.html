@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="author" content="Malik Eason">
+        <meta http-equiv="refresh" content="30">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Playfair+Display&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Martian+Mono:wght@300&family=Playfair+Display&display=swap"
+            rel="stylesheet">
+        <link rel="icon" type="image/x-icon"
+            href="../IMAGE/ICON/photography.png">
+        <link rel="stylesheet" href="../CSS/Pictures.css">
+
+        <title>
+            Pictures
+        </title>
+    </head>
+
+    <body>
+        <main>
+            <section class="pic"><img src="../IMAGE/ICON/camera.png" alt="Logo"
+                    width="50px"
+                    height="50px">
+            </section>
+            <div class="banner">
+                <div class="navbar">
+                    <nav>
+                        <ol>
+                            <li><a href="Index.html">Home</a></li>
+                            <li><a href="Pictures.html">Pictures</a></li>
+                            <li><a href="Videos.html">Videos</a></li>
+                            <li><a href="About.html">About</a></li>
+                        </ol>
+
+                    </nav>
+                </div>
+            </div>
+
+            <h1 id="titles"> Slideshow </h1>
+
+            <!--======Animation=======-->
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 11</div>
+                    <img src="../IMAGE/IMG_5776.JPG"
+                        style="width:100%"
+                        alt="Preping for Football game">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 11</div>
+                    <img src="../IMAGE/IMG_5777.JPG" style="width:100%"
+                        alt="Andrew posing for a photo">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 11</div>
+                    <img src="../IMAGE/IMG_5822.JPG"
+                        style="width:100%"
+                        alt="Playing Recreational Basketball">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 11</div>
+                    <img src="../IMAGE/Airplan_window_seat.jpg"
+                        style="width:100%"
+                        alt="Aiplane Window">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 11</div>
+                    <img src="../IMAGE/pexels-liana-tril'-10765221.jpg"
+                        style="width:100%"
+                        alt>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 11</div>
+                    <img src="../IMAGE/pexels-marek-piwnicki-14238473.jpg"
+                        style="width:100%"
+                        alt>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 11</div>
+                    <img src="../IMAGE/pexels-pablo-melo-9478886.jpg"
+                        style="width:100%"
+                        alt="dancer number 2">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 11</div>
+                    <img src="../IMAGE/pexels-tolga-aslantürk-14660131.jpg"
+                        alt="Singer 2"
+                        style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 12</div>
+                    <img src="../IMAGE/pexels-yelena-odintsova-14590600.jpg"
+                        alt="Singer 3"
+                        style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 12</div>
+                    <img src="../IMAGE/pexels-yelena-odintsova-5669066.jpg"
+                        alt="Singer 3"
+                        style="width:100%">
+                </div>
+
+                <!--+++++++++++++++++++++++ BUTTONS +++++++++++++++++++++++++++-->
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                <!--++++++++++++++++++++ LOWER DISPLAY+++++++++++++++++++++++++++-->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/IMG_5776.JPG"
+                            style="width:90%" onclick="currentSlide(1)"
+                            alt="Preping for Football game">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/IMG_5777.JPG" style="width:90%"
+                            onclick="currentSlide(2)" alt="Andrew posing for a
+                            photo">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/IMG_5822.JPG" style="width:90%"
+                            onclick="currentSlide(3)"
+                            alt="Playing Recreational Basketball">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/Airplan_window_seat.jpg"
+                            style="width:90%"
+                            onclick="currentSlide(4)" alt="Airplane Window seat
+                            view">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/pexels-liana-tril'-10765221.jpg"
+                            style="width:90%" onclick="currentSlide(5)"
+                            alt="Ice Skating in snow">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/pexels-marek-piwnicki-14238473.jpg"
+                            style="width:90%"
+                            onclick="currentSlide(6)" alt="Mountain Edges">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/pexels-pablo-melo-9478886.jpg"
+                            style="width:90%"
+                            onclick="currentSlide(7)" alt="Perfect Waves">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/pexels-tolga-aslantürk-14660131.jpg"
+                            style="width:90%" onclick="currentSlide(8)"
+                            alt="Dessert Pillars and Hot Air Ballon">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/pexels-yelena-odintsova-14590600.jpg"
+                            style="width:90%" onclick="currentSlide(9)"
+                            alt="Chanderlier">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo cursor"
+                            src="../IMAGE/pexels-yelena-odintsova-5669066.jpg"
+                            style="width:90%" onclick="currentSlide(10)"
+                            alt="MacBook with a Book and Latte">
+                    </div>
+                </div>
+            </div>
+
+            <!-- +++++++++++++ A BREIF DISCRIPTION OF THE IMAGES+++++++++++++++-->
+            <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+            <h1 id="titles"> Wall Gallery </h1>
+            <!--======Gallery=======-->
+            <div class="gallery-container">
+                <div class="gallery">
+                    <img src="../IMAGE/GOPR0008.JPG"
+                        alt="Image 1">
+                    <img src="../IMAGE/GOPR0019.JPG"
+                        alt="Image 2">
+                    <img src="../IMAGE/GOPR0022.JPG"
+                        alt="Image 3">
+                    <!-- Add more images here -->
+
+                    <img src="../IMAGE/GOPR0032.JPG"
+                        alt="Image 1">
+                    <img src="../IMAGE/GOPR0015.JPG"
+                        alt="Image 2">
+                    <img src="../IMAGE/GOPR0037.JPG"
+                        alt="Image 3">
+
+                    <!-- Add more images here -->
+                    <img src="../IMAGE/IMG-0042.JPG"
+                        alt="Image 1">
+                    <img src="../IMAGE/IMG-0111.JPG"
+                        alt="Image 2">
+                    <img src="../IMAGE/IMG-1174.jpg"
+                        alt="Image 3">
+
+                    <!-- Add more images here -->
+                    <img src="../IMAGE/IMG-0798.jpg"
+                        alt="Image 1">
+                    <img src="../IMAGE/IMG-0919 (1).jpg"
+                        alt="Image 2">
+                    <img src="../IMAGE/IMG-1122.jpg"
+                        alt="Image 3">
+
+                </div>
+            </div>
+
+        </main>
+
+    </body>
+    <footer>
+        <div class="foot">
+            <p>Copyright ©2022 Glimpse Studios Shoots</p>
+        </div>
+    </footer>
+</html>
